@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/5500000000000?text=Quero%20entrar%20na%20consultoria%20online.%20Pode%20me%20enviar%20o%20link%20de%20pagamento%3F";
+const WHATSAPP_URL = "https://wa.me/5547988602379?text=Quero%20entrar%20na%20consultoria%20online.%20Pode%20me%20enviar%20o%20link%20de%20pagamento%3F";
 
 export const CTAButton = ({ className = "" }: { className?: string }) => (
   <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={className}>
