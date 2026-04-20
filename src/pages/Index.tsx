@@ -10,7 +10,6 @@ import { PricingSection } from "@/components/landing/PricingSection";
 import { GuaranteeSection } from "@/components/landing/GuaranteeSection";
 import { ScarcitySection } from "@/components/landing/ScarcitySection";
 import { FooterSection } from "@/components/landing/FooterSection";
-import { Analytics } from "@vercel/analytics/next"
 
 const Index = () => (
   <main className="min-h-screen bg-background overflow-x-hidden">
@@ -26,7 +25,6 @@ const Index = () => (
     <GuaranteeSection />
     <ScarcitySection />
     <FooterSection />
-    <Analytics/>
   </main>
 );
 
